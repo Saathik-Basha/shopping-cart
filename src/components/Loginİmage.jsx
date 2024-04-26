@@ -1,20 +1,15 @@
-import React from 'react'
-import ShoppingPng from '../assets/shopping-with-bags.png'
-import '../css/Loginİmage.css'
-function Loginİmage() {
+import React from 'react';
+import ShoppingPng from '../assets/shopping-with-bags.png';
+import "../css/Loginİmage.css";
+
+function LoginImage() {
   return (
-    <>
-
-    <div class="container">
-        <h1 className='imageText'>
-            Welcome to MeMo Shopping 👋
-        </h1>
-        <button></button>
-        <img className='Mainİmage' src={ShoppingPng} alt="" />
+    <div className="container">
+      <h1 className="imageText">
+        Welcome to MeMo Shopping 👋
+      </h1>
     </div>
-    </>
   );
-};
+}
 
-
-export default Loginİmage;
+export default LoginImage;
